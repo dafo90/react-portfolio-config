@@ -1,12 +1,14 @@
 {
     "version": "1.0.0",
-    "copyrightName": "dafo90",
-    "footerText": {
-        "type": "typography",
-        "variant": "body2",
-        "color": "textSecondary",
-        "align": "center",
-        "text": "Theme inspired by the Lotus Type 79."
+    "footer": {
+        "copyrightName": "dafo90",
+        "text": {
+            "type": "typography",
+            "variant": "body2",
+            "color": "textSecondary",
+            "align": "center",
+            "text": "Theme inspired by the Lotus Type 79."
+        }
     },
     "notFound": {
         "title": "Oops!",
