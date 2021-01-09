@@ -1,0 +1,979 @@
+{
+    "version": "1.0.0",
+    "copyrightName": "dafo90",
+    "footerText": {
+        "type": "typography",
+        "variant": "body2",
+        "color": "textSecondary",
+        "align": "center",
+        "text": "Theme inspired by the Lotus Type 79."
+    },
+    "notFound": {
+        "title": "Oops!",
+        "subtitle": "404 - Page not found",
+        "button": {
+            "href": "/",
+            "label": "Go to homepage"
+        }
+    },
+    "personalInformation": {
+        "name": "Didier Dafond",
+        "title": "Full-Stack Developer",
+        "profileImage": "/profile.jpg",
+        "email": "didier.dafond[at]gmail.com",
+        "cvPdf": {
+            "href": "/docs/cv.pdf",
+            "buttonLabel": "Download PDF"
+        },
+        "location": "Switzerland",
+        "birthdate": {
+            "date": "09.10.1990",
+            "format": "DD.MM.YYYY",
+            "displayFormat": "Do MMMM YYYY",
+            "showAge": true
+        },
+        "biographyImage": "/background.jpg",
+        "biographyDescriptionShort": "Hi 👋, I'm Didier Dafond and I'm a Full-Stack Developer",
+        "biographyDescription": [
+            {
+                "type": "p",
+                "text": "I'm Didier Dafond and I'm a Full-Stack Developer since 2014. I like to experiment and work in team to keep up to date with new technologies. I have also a good electronic knowledge thanks to the high school's technical address. I have high expectations for myself and a strong work ethics. I always do my best by striving for the finest result without forgetting to pay attention to details."
+            },
+            {
+                "type": "p",
+                "text": [
+                    "This website was born in 2019 from my need to learn more deeply and practice with React Hooks and Material-UI, with which I decided to build something useful but simple as a web CV. Any improvements regarding this project is more than welcome, bearing in mind that the main focus is to be able to make it as generic as possible so that any other user could benefit from its use. The project is public on ",
+                    {
+                        "type": "link",
+                        "color": "inherit",
+                        "underline": "always",
+                        "component": "a",
+                        "target": "_blank",
+                        "rel": "noreferrer",
+                        "href": "https://github.com/dafo90/react-porfolio",
+                        "text": "GitHub"
+                    }
+                ]
+            },
+            {
+                "type": "typography",
+                "variant": "body2",
+                "align": "center",
+                "color": "textSecondary",
+                "text": [
+                    {
+                        "type": "i",
+                        "text": "“Simplify, then add lightness”"
+                    },
+                    " — Colin Chapman"
+                ]
+            }
+        ]
+    },
+    "github": {
+        "username": "dafo90",
+        "url": "https://github.com/dafo90",
+        "repos": [
+            {
+                "id": 209611683,
+                "name": "React Portfolio",
+                "enabled": true,
+                "main": true,
+                "description": "React Portfolio built with React, Material-UI, Redux and Saga"
+            },
+            {
+                "id": 215624053,
+                "name": "Tic-Tac-Toe",
+                "enabled": true,
+                "main": true,
+                "description": "Tic-Tac-Toe game built with React, Material-UI, Redux and Saga"
+            },
+            {
+                "id": 228206818,
+                "name": "DIY Arcade Cabinet",
+                "enabled": true,
+                "main": true,
+                "description": "Instruction to build your own customized Arcade Cabinet",
+                "imageUrl": "/images/arcade-cabinet.JPG"
+            },
+            {
+                "id": 182591319,
+                "name": "Node Password Generator",
+                "enabled": true,
+                "main": true
+            },
+            {
+                "id": 186187657,
+                "name": "Telegram Bot Docker Manager",
+                "enabled": true,
+                "main": true
+            },
+            {
+                "id": 218816700,
+                "name": "Docker - vsftpd",
+                "enabled": true,
+                "main": false
+            },
+            {
+                "id": 230647506,
+                "name": "Raspberry Pi Scripts",
+                "enabled": true,
+                "main": false,
+                "description": "Raspberry Pi Scripts to manage power on/off button and one fan in PWM mode"
+            },
+            {
+                "id": 142853515,
+                "name": "Caldera Forms Anti Spam",
+                "enabled": true,
+                "main": false
+            }
+        ],
+        "tags": [
+            {
+                "fieldName": "license",
+                "params": [
+                    {
+                        "fieldName": "text",
+                        "type": "field",
+                        "value": "spdx_id"
+                    },
+                    {
+                        "fieldName": "tooltip",
+                        "type": "text",
+                        "value": "License"
+                    },
+                    {
+                        "fieldName": "icon",
+                        "type": "icon",
+                        "value": "gavel"
+                    },
+                    {
+                        "fieldName": "url",
+                        "type": "field",
+                        "value": "html_url"
+                    },
+                    {
+                        "fieldName": "color",
+                        "type": "text",
+                        "value": "secondary"
+                    },
+                    {
+                        "fieldName": "variant",
+                        "type": "text",
+                        "value": "default"
+                    }
+                ]
+            },
+            {
+                "fieldName": "language",
+                "params": [
+                    {
+                        "fieldName": "text",
+                        "type": "this"
+                    },
+                    {
+                        "fieldName": "tooltip",
+                        "type": "text",
+                        "value": "Language"
+                    },
+                    {
+                        "fieldName": "icon",
+                        "type": "icon",
+                        "value": "code"
+                    },
+                    {
+                        "fieldName": "color",
+                        "type": "text",
+                        "value": "secondary"
+                    },
+                    {
+                        "fieldName": "variant",
+                        "type": "text",
+                        "value": "default"
+                    }
+                ]
+            },
+            {
+                "fieldName": "archived",
+                "onlyIf": true,
+                "params": [
+                    {
+                        "fieldName": "text",
+                        "type": "text",
+                        "value": "Archived"
+                    },
+                    {
+                        "fieldName": "icon",
+                        "type": "icon",
+                        "value": "business_center"
+                    },
+                    {
+                        "fieldName": "color",
+                        "type": "text",
+                        "value": "default"
+                    },
+                    {
+                        "fieldName": "variant",
+                        "type": "text",
+                        "value": "outlined"
+                    }
+                ]
+            },
+            {
+                "fieldName": "watchers_count",
+                "params": [
+                    {
+                        "fieldName": "text",
+                        "type": "this"
+                    },
+                    {
+                        "fieldName": "tooltip",
+                        "type": "text",
+                        "value": "Watchers"
+                    },
+                    {
+                        "fieldName": "icon",
+                        "type": "icon",
+                        "value": "visibility"
+                    },
+                    {
+                        "fieldName": "color",
+                        "type": "text",
+                        "value": "secondary"
+                    },
+                    {
+                        "fieldName": "variant",
+                        "type": "text",
+                        "value": "outlined"
+                    }
+                ]
+            },
+            {
+                "fieldName": "stargazers_count",
+                "params": [
+                    {
+                        "fieldName": "text",
+                        "type": "this"
+                    },
+                    {
+                        "fieldName": "tooltip",
+                        "type": "text",
+                        "value": "Stars"
+                    },
+                    {
+                        "fieldName": "icon",
+                        "type": "icon",
+                        "value": "star"
+                    },
+                    {
+                        "fieldName": "color",
+                        "type": "text",
+                        "value": "secondary"
+                    },
+                    {
+                        "fieldName": "variant",
+                        "type": "text",
+                        "value": "outlined"
+                    }
+                ]
+            },
+            {
+                "fieldName": "forks_count",
+                "params": [
+                    {
+                        "fieldName": "text",
+                        "type": "this"
+                    },
+                    {
+                        "fieldName": "tooltip",
+                        "type": "text",
+                        "value": "Forks"
+                    },
+                    {
+                        "fieldName": "icon",
+                        "type": "icon",
+                        "value": "call_split"
+                    },
+                    {
+                        "fieldName": "color",
+                        "type": "text",
+                        "value": "secondary"
+                    },
+                    {
+                        "fieldName": "variant",
+                        "type": "text",
+                        "value": "outlined"
+                    }
+                ]
+            }
+        ]
+    },
+    "skills": [
+        {
+            "code": "javascript",
+            "enabled": true,
+            "main": false,
+            "level": 5,
+            "imageUrl": "/logos/js.svg",
+            "url": "https://www.javascript.com",
+            "name": "JavaScript",
+            "tooltip": "Knowledge level",
+            "description": "I started developing in JavaScript in 2017, thanks to the continuous improvements of this language I can now exploit its potential."
+        },
+        {
+            "code": "npmjs",
+            "enabled": true,
+            "main": false,
+            "level": 5,
+            "imageUrl": "/logos/npm.svg",
+            "url": "https://www.npmjs.com",
+            "name": "npm",
+            "tooltip": "Knowledge level",
+            "description": "It is mandatory to be able to use npm before starting to work with Node.js or React."
+        },
+        {
+            "code": "eslint",
+            "enabled": true,
+            "main": false,
+            "level": 5,
+            "imageUrl": "/logos/eslint.svg",
+            "url": "https://eslint.org",
+            "name": "ESLint",
+            "tooltip": "Knowledge level",
+            "description": "It is impossible to develop without it. Since I started using JavaScript ESLint is my inseparable tool."
+        },
+        {
+            "code": "nodejs",
+            "enabled": true,
+            "main": true,
+            "level": 4,
+            "imageUrl": "/logos/nodejs.svg",
+            "url": "https://nodejs.org",
+            "name": "Node.js",
+            "tooltip": "Knowledge level",
+            "description": "Starting from the end of 2017 Node.js has supported Java as back-end technology in my developer life."
+        },
+        {
+            "code": "feathersjs",
+            "enabled": true,
+            "main": true,
+            "level": 4,
+            "imageUrl": "/logos/feathersjs.svg",
+            "url": "https://feathersjs.com",
+            "name": "Feathers",
+            "tooltip": "Knowledge level",
+            "description": "I always use Node.js with Feathers. Like Spring for Java, Feathers is a framework to simplify the development of REST APIs in Node.js."
+        },
+        {
+            "code": "react",
+            "enabled": true,
+            "main": true,
+            "level": 5,
+            "imageUrl": "/logos/react.svg",
+            "url": "https://reactjs.org",
+            "name": "React (Hooks)",
+            "tooltip": "Knowledge level",
+            "description": "I started using React around the same time as Node.js. I created this webpage to improve my knowledge of this technology."
+        },
+        {
+            "code": "redux-saga",
+            "enabled": true,
+            "main": false,
+            "level": 4,
+            "imageUrl": "/logos/redux-saga.svg",
+            "url": "https://redux-saga.js.org",
+            "name": "Redux and Saga",
+            "tooltip": "Knowledge level",
+            "description": "These two libraries are indispensable to build complex apps with React."
+        },
+        {
+            "code": "material",
+            "enabled": true,
+            "main": false,
+            "level": 5,
+            "imageUrl": "/logos/material.svg",
+            "url": "https://material-ui.com",
+            "name": "Material-UI",
+            "tooltip": "Knowledge level",
+            "description": "After a few months with Semantic UI, the extremely wide and cleanliness of Material-UI \"imposed\" its introduction."
+        },
+        {
+            "code": "mongodb",
+            "enabled": true,
+            "main": true,
+            "level": 4,
+            "imageUrl": "/logos/mongodb.svg",
+            "url": "https://www.mongodb.com",
+            "name": "MongoDB",
+            "tooltip": "Knowledge level",
+            "description": "In order to complete the transition to current technologies, MongoDB is absolutely the DB that best fits a Node.js server (for flexibility and usage methodology)."
+        },
+        {
+            "code": "java",
+            "enabled": true,
+            "main": false,
+            "level": 6,
+            "imageUrl": "/logos/java.svg",
+            "url": "https://www.java.com",
+            "name": "Java EE",
+            "tooltip": "Knowledge level",
+            "description": "Java is the language I mainly use since 2014, notwithstanding JavaScript in the last few years is taking over."
+        },
+        {
+            "code": "spring",
+            "enabled": true,
+            "main": true,
+            "level": 5,
+            "imageUrl": "/logos/spring.svg",
+            "url": "https://spring.io",
+            "name": "Spring Boot",
+            "tooltip": "Knowledge level",
+            "description": "Spring Boot (and Spring) is the framework for Java I have been using since 2014 to create web services."
+        },
+        {
+            "code": "maven",
+            "enabled": true,
+            "main": false,
+            "level": 5,
+            "imageUrl": "/logos/maven.svg",
+            "url": "https://maven.apache.org",
+            "name": "Maven",
+            "tooltip": "Knowledge level",
+            "description": "Since I started developing in Java Maven, has accompanied and helped me to manage the various projects."
+        },
+        {
+            "code": "hibernate",
+            "enabled": true,
+            "main": false,
+            "level": 4,
+            "imageUrl": "/logos/hibernate.svg",
+            "url": "https://hibernate.org",
+            "name": "Hibernate",
+            "tooltip": "Knowledge level",
+            "description": "In my opinion Hibernate is the most complete library to access the database in Java, certainly the most complete that I have used."
+        },
+        {
+            "code": "oracle",
+            "enabled": true,
+            "main": true,
+            "level": 5,
+            "imageUrl": "/logos/oracle.svg",
+            "url": "https://www.oracle.com",
+            "name": "Oracle DB (SQL)",
+            "tooltip": "Knowledge level",
+            "description": "Oracle Database is the main database I have been using before MongoDB."
+        },
+        {
+            "code": "git",
+            "enabled": true,
+            "main": false,
+            "level": 5,
+            "imageUrl": "/logos/git.svg",
+            "url": "https://git-scm.com",
+            "name": "Git",
+            "tooltip": "Knowledge level",
+            "description": "Git... Can you really develop without it!?"
+        },
+        {
+            "code": "rancher",
+            "enabled": true,
+            "main": true,
+            "level": 2,
+            "imageUrl": "/logos/rancher.svg",
+            "url": "https://rancher.com",
+            "name": "Rancher",
+            "tooltip": "Knowledge level",
+            "description": "I use Rancher (literally as user) to manage the deployed Apps."
+        },
+        {
+            "code": "docker",
+            "enabled": true,
+            "main": false,
+            "level": 3,
+            "imageUrl": "/logos/docker.svg",
+            "url": "https://www.docker.com",
+            "name": "Docker",
+            "tooltip": "Knowledge level",
+            "description": "I use Docker as user but I also work with it with my home server."
+        },
+        {
+            "code": "unraid",
+            "enabled": true,
+            "main": false,
+            "level": 5,
+            "imageUrl": "/logos/unraid.svg",
+            "url": "https://unraid.net/",
+            "name": "Unraid",
+            "tooltip": "Unraid OS",
+            "description": "Unraid is the OS of my home server."
+        },
+        {
+            "code": "raspberry",
+            "enabled": true,
+            "main": false,
+            "level": 5,
+            "imageUrl": "/logos/raspberry.svg",
+            "url": "https://www.raspberrypi.org",
+            "name": "Raspberry Pi",
+            "tooltip": "Knowledge level",
+            "description": "I started using the Raspberry Pi to build my personal server. After establishing that the first approach was extremely positive, I have used it for other projects (the main one was the Arcade Cabinet)."
+        },
+        {
+            "code": "arduino",
+            "enabled": true,
+            "main": false,
+            "level": 5,
+            "imageUrl": "/logos/arduino.svg",
+            "url": "https://www.arduino.cc",
+            "name": "Arduino",
+            "tooltip": "Knowledge level",
+            "description": "Arduino is more like one of my hobbies. I like being able to build small, low-cost circuits at home."
+        },
+        {
+            "code": "wordpress",
+            "enabled": true,
+            "main": false,
+            "level": 5,
+            "imageUrl": "/logos/wordpress.svg",
+            "url": "https://wordpress.com",
+            "name": "WordPress",
+            "tooltip": "Knowledge level",
+            "description": "In some cases the fastest, simplest and most immediate choice..."
+        },
+        {
+            "code": "latex",
+            "enabled": true,
+            "main": false,
+            "level": 5,
+            "imageUrl": "/logos/latex.svg",
+            "url": "https://www.latex-project.org",
+            "name": "LaTeX",
+            "tooltip": "Knowledge level",
+            "description": "LaTeX is simply my favorite typesetting system!"
+        }
+    ],
+    "socials": [
+        {
+            "code": "linkedin",
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/in/didierdafond",
+            "icon": "TiSocialLinkedin",
+            "enabled": true
+        },
+        {
+            "code": "github",
+            "name": "GitHub",
+            "url": "https://github.com/dafo90",
+            "icon": "TiSocialGithub",
+            "enabled": true
+        },
+        {
+            "code": "flickr",
+            "name": "Flickr",
+            "url": "https://flickr.com/people/140115200@N07",
+            "icon": "TiSocialFlickr",
+            "enabled": true
+        },
+        {
+            "code": "facebook",
+            "name": "Facebook",
+            "url": "https://facebook.com/didier.dafond",
+            "icon": "TiSocialFacebook",
+            "enabled": true
+        },
+        {
+            "code": "instagram",
+            "name": "Instagram",
+            "url": "https://instagram.com/didierdafond",
+            "icon": "TiSocialInstagram",
+            "enabled": true
+        }
+    ],
+    "layouts": [
+        {
+            "code": "aboutme",
+            "title": "About Me",
+            "componentName": "AboutMe",
+            "urls": [
+                "/",
+                "/aboutme"
+            ],
+            "buttonLabel": "About Me",
+            "icon": {
+                "type": "icon",
+                "name": "person"
+            },
+            "homepage": true,
+            "enabled": true,
+            "content": {}
+        },
+        {
+            "code": "resume",
+            "title": "Resume",
+            "subtitle": "Full-Stack Developer - Software Engineer",
+            "componentName": "Resume",
+            "urls": [
+                "/resume"
+            ],
+            "buttonLabel": "Resume",
+            "icon": {
+                "type": "icon",
+                "name": "folder_shared"
+            },
+            "enabled": true,
+            "content": [
+                {
+                    "code": "skills",
+                    "title": "Skills",
+                    "list": [
+                        {
+                            "code": "programming",
+                            "title": "Programming",
+                            "description": "Java · JavaScript · ActionScript · LaTeX · Bash · C/C++",
+                            "image": "/icons/dev.png"
+                        },
+                        {
+                            "code": "back-end",
+                            "title": "Back-end",
+                            "description": "Spring & Spring Boot · NodeJS (FeathersJS & Express)",
+                            "image": "/icons/gear.png"
+                        },
+                        {
+                            "code": "front-end",
+                            "title": "Front-end",
+                            "description": "React · Redux & Saga · Material-UI · HTML5 · CSS · Flex · JSP",
+                            "image": "/icons/frames.png"
+                        },
+                        {
+                            "code": "database",
+                            "title": "Database",
+                            "description": "Oracle Database · MySQL · MongoDB",
+                            "image": "/icons/bookshelf.png"
+                        },
+                        {
+                            "code": "devops",
+                            "title": "DevOps",
+                            "description": "Docker · Rancher · Jenkins · Kibana · Atlassian Suite · Nexus",
+                            "image": "/icons/speedometer.png"
+                        },
+                        {
+                            "code": "tools",
+                            "title": "Tools",
+                            "description": "Npm · Maven · Git · Tomcat & JBoss · Postman · IntelliJ IDEA · Visual Studio Code · NetBeans",
+                            "image": "/icons/tools.png"
+                        },
+                        {
+                            "code": "cms",
+                            "title": "CMS",
+                            "description": "WordPress",
+                            "image": "/icons/browser.png"
+                        },
+                        {
+                            "code": "hardware",
+                            "title": "Hardware",
+                            "description": "Arduino · Raspberry",
+                            "image": "/icons/computer.png"
+                        }
+                    ]
+                },
+                {
+                    "code": "languages",
+                    "title": "Languages",
+                    "list": [
+                        {
+                            "code": "italian",
+                            "title": "Italian",
+                            "level": "native speaker",
+                            "image": "/flags/italy.png"
+                        },
+                        {
+                            "code": "english",
+                            "title": "English",
+                            "level": 3,
+                            "description": "Technical - Good technical notions, basic spoken and writing",
+                            "image": "/flags/unitedkingdom.png"
+                        },
+                        {
+                            "code": "german",
+                            "title": "German",
+                            "level": 3,
+                            "description": "Intermediate - Good spoken and written notions",
+                            "image": "/flags/germany.png"
+                        },
+                        {
+                            "code": "french",
+                            "title": "French",
+                            "level": 2,
+                            "description": "Basic - Basic spoken and written notions",
+                            "image": "/flags/france.png"
+                        }
+                    ]
+                },
+                {
+                    "code": "courses",
+                    "title": "Courses",
+                    "list": [
+                        {
+                            "code": "m001-mongodb-basics",
+                            "title": "2019",
+                            "description": "M001: MongoDB Basics",
+                            "others": "MongoDB University",
+                            "image": "/logos/mongodbuniversity.png"
+                        },
+                        {
+                            "code": "itil-foundation-certificate-in-it-service-management",
+                            "title": "2016",
+                            "description": "ITIL Foundation certificate in IT Service Management",
+                            "others": "AXELOS",
+                            "image": "/logos/itil.jpeg"
+                        },
+                        {
+                            "code": "zertifikat-deutsch-telc-b1",
+                            "title": "2012",
+                            "description": "Zertifikat Deutsch TELC B1",
+                            "others": "Carl Duisberg, D-78315 Radolfzell (Germany)",
+                            "image": "/logos/telc.png"
+                        }
+                    ]
+                },
+                {
+                    "code": "awards",
+                    "title": "Awards",
+                    "list": [
+                        {
+                            "code": "third-best-grade-of-technical-professional-maturity-scuola-arti-e-mestieri-di-bellinzona-samb",
+                            "title": "2010",
+                            "description": "Third best grade of Technical Professional Maturity, Scuola Arti e Mestieri di Bellinzona (SAMB)",
+                            "image": "/icons/trophy.png"
+                        }
+                    ]
+                },
+                {
+                    "code": "knowMeMore",
+                    "title": "Know me more…",
+                    "list": [
+                        {
+                            "code": "unraid-os",
+                            "title": "I manage of my personal home server with Unraid OS",
+                            "image": "/icons/gear.png"
+                        },
+                        {
+                            "code": "electronics",
+                            "title": "Good knowledge of electronics in general",
+                            "image": "/icons/bolt.png"
+                        },
+                        {
+                            "code": "cars",
+                            "title": "Passionate about combustion engines (ICE) and the automotive world in general",
+                            "image": "/icons/car.png"
+                        },
+                        {
+                            "code": "arcade-cabinet",
+                            "title": "80's Arcade Cabinet Machine enthusiast; designed and built five",
+                            "image": "/icons/gamecontroller.png"
+                        },
+                        {
+                            "code": "carnival",
+                            "title": "Active in the carnival group of Castione (Sciatt) as a committee member since 2014 and accountant since 2018",
+                            "image": "/icons/trends.png"
+                        }
+                    ]
+                }
+            ],
+            "timeline": [
+                {
+                    "code": "2014-eoc",
+                    "enabled": true,
+                    "imageUrl": "/logos/eoc.svg",
+                    "imageAlt": "EOC",
+                    "date": "2014 - Present",
+                    "title": [
+                        "Full-Stack Developer ",
+                        {
+                            "type": "link",
+                            "color": "inherit",
+                            "underline": "always",
+                            "href": "https://www.eoc.ch",
+                            "target": "_blank",
+                            "rel": "noreferrer",
+                            "text": "@EOC"
+                        }
+                    ],
+                    "subtitle": "Ente Ospedaliero Cantonale, CH-6500 Bellinzona",
+                    "description": "Full-Stack developer mainly in Java (Spring & Spring Boot) and Oracle Database as back-end and React Hooks as front-end. Since the end of 2017 the back-end's development moved gradually on NodeJS (with framework FeathersJS) and MongoDB as database. We also use Jenkins as a build & deploy system, Docker (with Rancher) as a service manager and Kibana as a log aggregator."
+                },
+                {
+                    "code": "2011-supsi",
+                    "enabled": true,
+                    "imageUrl": "/logos/supsi.png",
+                    "imageAlt": "SUPSI",
+                    "date": "2011 - 2014",
+                    "title": [
+                        "Bachelor's in Computer Science ",
+                        {
+                            "type": "link",
+                            "color": "inherit",
+                            "underline": "always",
+                            "href": "https://www.supsi.ch",
+                            "target": "_blank",
+                            "rel": "noreferrer",
+                            "text": "@SUPSI"
+                        }
+                    ],
+                    "subtitle": "Scuola Universitaria Professionale della Svizzera Italiana, CH-6928 Manno",
+                    "description": "Diploma's project: P2P photo sharing via gesture recognition. Experience with basic AI in gesture recognition and the (old) Android framework."
+                },
+                {
+                    "code": "2010-arbedo-castione",
+                    "enabled": true,
+                    "imageUrl": "/logos/arbedo-castione.svg",
+                    "imageAlt": "Arbedo-Castione",
+                    "date": "2010 - 2011",
+                    "url": "https://www.arbedocastione.ch",
+                    "title": [
+                        "Civil Service ",
+                        {
+                            "type": "link",
+                            "color": "inherit",
+                            "underline": "always",
+                            "href": "https://www.arbedocastione.ch",
+                            "target": "_blank",
+                            "rel": "noreferrer",
+                            "text": "@Municipality of Arbedo-Castione"
+                        }
+                    ],
+                    "subtitle": "Municipio di Arbedo-Castione, CH-6517 Arbedo",
+                    "description": "Mainly administrative work with Microsoft Office suite, cadastral map updating and two months (one in 2016 and one in 2017) of landscaping and gardening work. Ended in 2017."
+                },
+                {
+                    "code": "2006-samb",
+                    "enabled": true,
+                    "imageUrl": "/logos/samb.png",
+                    "imageAlt": "SAMB",
+                    "date": "2006 - 2010",
+                    "title": [
+                        "Federal Proficiency Certificate and Certificate of Technical Professional Maturity ",
+                        {
+                            "type": "link",
+                            "color": "inherit",
+                            "underline": "always",
+                            "href": "http://www.samb.ti.ch",
+                            "target": "_blank",
+                            "rel": "noreferrer",
+                            "text": "@SAMB"
+                        }
+                    ],
+                    "subtitle": "Scuola Arti e Mestieri Bellinzona, CH-6500 Bellinzona",
+                    "description": "Electronics' notions and development of simple software for microprocessors."
+                }
+            ]
+        },
+        {
+            "code": "projects",
+            "title": "Projects",
+            "subtitle": [
+                "All my personal Project Sources are published on ",
+                {
+                    "type": "link",
+                    "color": "inherit",
+                    "underline": "always",
+                    "href": "https://github.com/dafo90",
+                    "target": "_blank",
+                    "rel": "noreferrer",
+                    "text": "GitHub"
+                }
+            ],
+            "componentName": "Projects",
+            "urls": [
+                "/projects"
+            ],
+            "buttonLabel": "Projects",
+            "icon": {
+                "type": "icon",
+                "name": "developer_mode"
+            },
+            "enabled": true,
+            "content": {}
+        },
+        {
+            "code": "skills",
+            "title": "Technical Skills",
+            "subtitle": "A short list of my major Skills",
+            "componentName": "Skills",
+            "urls": [
+                "/skills"
+            ],
+            "buttonLabel": "Skills",
+            "icon": {
+                "type": "icon",
+                "name": "extension"
+            },
+            "enabled": true,
+            "content": {}
+        },
+        {
+            "code": "contact",
+            "title": "Contact",
+            "subtitle": "Get in touch",
+            "componentName": "Contact",
+            "urls": [
+                "/contact"
+            ],
+            "buttonLabel": "Contact",
+            "icon": {
+                "type": "icon",
+                "name": "email"
+            },
+            "contact": true,
+            "enabled": true,
+            "form": {
+                "googleReCaptchaClientSiteKey": "6LfnwsQUAAAAAM4sjdJb7BPUe-Bv0SzZksDJQCkB",
+                "sendMessageOk": "Thanks for contacting me, I will reply to you as soon as possible!",
+                "sendMessageUnknownError": "Something went wrong",
+                "nameField": {
+                    "requiredMessage": "Please fill out this field",
+                    "autoComplete": "cc-name",
+                    "label": "Name",
+                    "placeholder": "Name"
+                },
+                "emailField": {
+                    "requiredMessage": "Please fill out this field",
+                    "invalidMessage": "Please insert a valid email",
+                    "autoComplete": "email",
+                    "label": "Email",
+                    "placeholder": "Email"
+                },
+                "messageField": {
+                    "requiredMessage": "Please fill out this field",
+                    "label": "Message",
+                    "placeholder": "Message"
+                },
+                "privacyPolicyField": {
+                    "requiredMessage": "Please check this box if you want to proceed",
+                    "label": {
+                        "type": "typography",
+                        "variant": "body2",
+                        "display": "block",
+                        "text": [
+                            "By using this form you agree with the storage and handling of your data by Formspree in accordance with its ",
+                            {
+                                "type": "link",
+                                "color": "inherit",
+                                "underline": "always",
+                                "target": "_blank",
+                                "rel": "noreferrer",
+                                "href": "https://formspree.io/legal/privacy-policy",
+                                "text": "Privacy Policy"
+                            },
+                            "."
+                        ]
+                    }
+                },
+                "submitButton": {
+                    "url": "https://formspree.io/xyyzybdj",
+                    "label": "Submit"
+                }
+            }
+        }
+    ]
+}

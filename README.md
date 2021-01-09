@@ -1,2 +1,3 @@
-# react-portfolio-conf
-My React-Portfolio's configurations
+# # React Portfolio configurations
+
+My React Portfolio's configurations
