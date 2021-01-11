@@ -389,6 +389,17 @@
             "description": "These two libraries are indispensable to build complex apps with React."
         },
         {
+            "code": "redux-toolkit",
+            "enabled": true,
+            "main": false,
+            "level": 4,
+            "imageUrl": "/logos/redux.svg",
+            "url": "https://redux-toolkit.js.org/",
+            "name": "Redux and Saga",
+            "tooltip": "Knowledge level",
+            "description": "A more efficient approach to asynchronous tasks with Redux."
+        },
+        {
             "code": "material",
             "enabled": true,
             "main": false,
