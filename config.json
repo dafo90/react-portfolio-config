@@ -342,7 +342,7 @@
             "url": "https://eslint.org",
             "name": "ESLint",
             "tooltip": "Knowledge level",
-            "description": "It is impossible to develop without it. Since I started using JavaScript ESLint is my inseparable tool."
+            "description": "It's impossible to develop in JavaScript without it. Since I started using JavaScript ESLint is my inseparable tool."
         },
         {
             "code": "nodejs",
@@ -353,7 +353,7 @@
             "url": "https://nodejs.org",
             "name": "Node.js",
             "tooltip": "Knowledge level",
-            "description": "Starting from the end of 2017 Node.js has supported Java as back-end technology in my developer life."
+            "description": "Starting from the end of 2017, Node.js was introduced where business needs required high level of flexibility."
         },
         {
             "code": "feathersjs",
@@ -364,7 +364,7 @@
             "url": "https://feathersjs.com",
             "name": "Feathers",
             "tooltip": "Knowledge level",
-            "description": "I always use Node.js with Feathers. Like Spring for Java, Feathers is a framework to simplify the development of REST APIs in Node.js."
+            "description": "I always use Node.js with Feathers. It's a lightweight web-framework which wraps Express to simplify the development of REST APIs in Node.js."
         },
         {
             "code": "react",
@@ -419,7 +419,7 @@
             "url": "https://www.mongodb.com",
             "name": "MongoDB",
             "tooltip": "Knowledge level",
-            "description": "In order to complete the transition to current technologies, MongoDB is absolutely the DB that best fits a Node.js server (for flexibility and usage methodology)."
+            "description": "In order to fully benefit of JavaScript's potential, MongoDB is absolutely the best choice for a Node.js server (for flexibility and usage methodology)."
         },
         {
             "code": "java",
@@ -430,7 +430,7 @@
             "url": "https://www.java.com",
             "name": "Java EE",
             "tooltip": "Knowledge level",
-            "description": "Java is the language I mainly use since 2014, notwithstanding JavaScript in the last few years is taking over."
+            "description": "Java is the language I mainly use since 2014, obviously with Spring Boot."
         },
         {
             "code": "spring",
@@ -452,7 +452,7 @@
             "url": "https://maven.apache.org",
             "name": "Maven",
             "tooltip": "Knowledge level",
-            "description": "Since I started developing in Java Maven, has accompanied and helped me to manage the various projects."
+            "description": "Since I started developing in Java, Maven has accompanied and helped me to manage the various projects."
         },
         {
             "code": "hibernate",
@@ -463,7 +463,7 @@
             "url": "https://hibernate.org",
             "name": "Hibernate",
             "tooltip": "Knowledge level",
-            "description": "In my opinion Hibernate is the most complete library to access the database in Java, certainly the most complete that I have used."
+            "description": "In my opinion Hibernate is the most complete ORM in Java, certainly the most complete that I have used."
         },
         {
             "code": "oracle",
@@ -474,7 +474,7 @@
             "url": "https://www.oracle.com",
             "name": "Oracle DB (SQL)",
             "tooltip": "Knowledge level",
-            "description": "Oracle Database is the main database I have been using before MongoDB."
+            "description": "Oracle Database is the database I mainly use."
         },
         {
             "code": "git",
@@ -646,14 +646,14 @@
                             "image": "/icons/dev.png"
                         },
                         {
-                            "code": "back-end",
-                            "title": "Back-end",
+                            "code": "backend",
+                            "title": "Backend",
                             "description": "Spring & Spring Boot · NodeJS (FeathersJS & Express)",
                             "image": "/icons/gear.png"
                         },
                         {
-                            "code": "front-end",
-                            "title": "Front-end",
+                            "code": "frontend",
+                            "title": "Frontend",
                             "description": "React · Redux & Saga · Material-UI · HTML5 · CSS · Flex · JSP",
                             "image": "/icons/frames.png"
                         },
@@ -813,7 +813,7 @@
                         }
                     ],
                     "subtitle": "Ente Ospedaliero Cantonale, CH-6500 Bellinzona",
-                    "description": "Full-Stack developer mainly in Java (Spring & Spring Boot) and Oracle Database as back-end and React Hooks as front-end. Since the end of 2017 the back-end's development moved gradually on NodeJS (with framework FeathersJS) and MongoDB as database. We also use Jenkins as a build & deploy system, Docker (with Rancher) as a service manager and Kibana as a log aggregator."
+                    "description": "Full-Stack developer mainly in Java (Spring & Spring Boot) and Oracle Database as backend and React Hooks as frontend. Since the end of 2017 the backend's development of specific projects (dictated by business flexibility needs) moved gradually on NodeJS (with framework FeathersJS) and MongoDB as database. We also use Jenkins as a build & deploy system, Docker (with Rancher) as a service manager and Kibana as a log aggregator."
                 },
                 {
                     "code": "2011-supsi",
